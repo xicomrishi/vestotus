@@ -1,0 +1,73 @@
+<?php echo $this->Form->create('quiz',['class'=>'form-control','id'=>'quizform']) ?>
+<?= $this->Form->hidden('lesson_id',['value'=>$lesson['lesson_id']]) ?>
+<?= $this->Form->hidden('course_id',['value'=>$lesson['course_id']]) ?>
+<?= $this->Form->hidden('id',['value'=>$lesson['id']]) ?>
+                        <div class="quiz-wrapper">
+                                <h3>Quiz - Question <?= $lessono[$lesson['id']] ?></h3>
+                                <h4><?= ucfirst($lesson['question']) ?></h4>
+                                <p></p>
+                                <?php 
+                                    $options = json_decode($lesson['options']);
+                                ?>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="panel course-quiz-panel">
+                                            <div class="panel-body">
+                                            <?php foreach($options as $opt) {
+                                                $cont = '';
+                                                if($checkans)
+                                                {
+                                                    if($checkans['answerbyuser']==$opt)
+                                                    {
+                                                        $cont = "checked='checked'"; 
+                                                    }
+                                                }
+                                             ?>
+                                                <div class="radiodiv">
+                                                    <input name="answer" value="<?= $opt ?>" type="radio" <?= $cont ?>  class=" answers">
+                                                    <label for="checkbox_qu_01">
+                                                       <?= ucfirst($opt) ?>
+                                                    </label>
+                                                </div>
+                                                <?php } ?>
+                                                
+                                            </div><!-- end body -->
+                                            <!--<div class="panel-footer text-center">
+                                                <a href="javascript:void(0);" class="btn btn-primary " role="button">Confirm</a>
+                                                <a href="javascript:void(0);" class="btn btn-primary" role="button">Clear</a>
+                                            </div> -->
+                                        </div><!-- end panel -->
+
+                                        <hr class="invis">
+
+                                         <!--<div class="skills course-complete text-left">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" data-transitiongoal="80" aria-valuenow="80" style="width: 80%;"><span>80</span></div>
+                                            </div>
+                                        </div>-->
+                                    </div><!-- end col -->
+                                </div><!-- end row -->
+
+
+ <hr class="invis">
+
+                                <div class="row">
+                                <?php if($prev) : ?>
+                                    <div class="col-md-6">
+                                        <a href="javascript:void(0);" onclick="gotoprev('<?= $prev?>');" class="btn btn-primary btn-square btn-block">Prev Question</a>
+                                    </div>
+                                    <?php endif; ?>
+                                    <?php if($next) : ?>
+                                    <div class="col-md-6">
+                                        <a href="javascript:void(0);" onclick="gotonext('<?= $next?>');" class="btn btn-primary btn-square btn-block">Save and Continue </a>
+                                    </div>
+                                <?php endif; ?>
+                                <?php if(!$next): ?>
+                                  <div class="col-md-6">
+                                        <a href="javascript:void(0);" onclick="testsubmit('<?= $testid ?>');" class="btn btn-primary btn-square btn-block">Submit Test</a>
+                                    </div>  
+
+                                <?php endif; ?>
+                                </div><!-- end row -->
+
+                                <?= $this->Form->end()?>

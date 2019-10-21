@@ -1,0 +1,512 @@
+@media screen and (max-width: 1590px) {
+	.bl-box h2 {font-size: 36px; margin-top: 10px; float: left;}
+	#section0 h2 { font-size: 40px;}
+	.logo .img-responsive { width: 200px;}
+	.bl-box h2 {font-size: 30px;}
+	.bl-box figure { margin: 25px 0px 0px;}
+}	
+@media only screen and (max-width: 1300px) {
+	.bl-box h2 {font-size: 30px;}
+}	
+
+
+@media only screen and (max-width: 1024px) {
+.bl-icon {
+    font-size: 30px !important;
+}.bl-box figure {
+    margin: 20px 0px 0px;
+}#section3 {
+    padding-bottom: 10px;
+}
+.bl-box h2 {
+    font-size: 30px !important;
+}
+
+.about-us-section p { font-size: 16px; width: 90%;}
+.right-about-us, .left-testimonials { height: auto; min-height: 0; padding: 0px 0 30px 0; flex: 1;}
+.left-testimonials { margin-right: 5%;}
+.about-us-section { display: flex;}
+.about-us-section h2 { margin: 20px 0px 10px;}
+.img-responsive, .about-us-section p { margin-bottom: 20px;}
+.social-icon .img-responsive { margin-bottom: 0;}
+.bl-box figure { margin: 70px 0px 0px;}
+.bl-box h2 { font-size: 27px !important;}
+.bl-box figure img { width: 100px;}
+.bl-content h2 { font-size: 30px;}
+.bl-content p { font-size: 18px; line-height: 25px;}
+.read-more-btn {  font-weight: normal; font-size: 15px;}
+.form-div h2 { font-size: 35px;}
+.controls input { padding: 5px 15px; font-size: 15px; height: 50px;}
+.intro p { font-size: 18px;}
+#section3 .fp-tableCell, #section3 { padding-bottom:0;}
+}
+@media only screen and (max-width: 920px) {
+#slideshow div p {
+	width: 90%;
+}
+/*.right-about-us,.left-testimonials {
+	min-height:450px;
+}*/
+.bl-icon {
+    font-size: 17px !important;
+}
+.form-div h2 {
+    font-size: 36px;
+}
+.form-div form {
+    padding: 0px 30px;
+}
+.counter .qty {
+    width: 200px;
+}
+#section1 .intro {
+    margin-top: 15%;
+}
+.left-testimonials {
+    width: 100%;
+}
+.bl-main > section:first-child {
+	top: 0;
+	left: 0;
+	border:5px solid #1c2f3d;
+}
+
+.bl-main > section:nth-child(2) {
+	top: 0;
+	left: 50%;	
+	border:5px solid #1c2f3d;
+}
+
+.bl-main > section:nth-child(3) {
+	top: 25%;
+	left: 0%;	
+	border:5px solid #1c2f3d;
+}
+
+.bl-main > section:nth-child(4) {
+	top: 25%;
+	left: 50%;
+	border:5px solid #1c2f3d;
+}
+.bl-main > section:nth-child(5) {
+	top: 50%;
+	left: 0%;
+	border:5px solid #1c2f3d;
+}
+.bl-main > section:nth-child(6) {
+	top: 50%;
+	left:50%;
+	border:5px solid #1c2f3d;
+}
+.bl-main > section:nth-child(7) {
+	top: 75%;
+	left: 0%;	
+	border:5px solid #1c2f3d;
+}
+.bl-main > section:nth-child(8) {
+	top: 75% !important;
+	left:50%;	
+	border:5px solid #1c2f3d;
+}
+.bl-main > section {
+    width: 50% !important;
+    height: 25%;
+}
+.right-about-us {
+    width: 100%;
+    /*margin-top: 20px;*/
+    height: auto !important;
+    min-height: 0;
+    padding-bottom: 20px;
+}
+.bl-box figure { margin: 0;}
+#section0 h2 { font-size: 34px;}
+.right-about-us, .left-testimonials { margin-bottom: 20px; height: 200px;}
+.bl-main > section { border-radius: 0;}
+}
+@media only screen and (max-width: 767px) {
+.about-us-section {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    float: left;
+    padding: 25px;
+    overflow: auto;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.about-us-section h2 {
+    font-size: 25px;
+	margin: 10px 0px 10px;
+}
+.about-us-section p {
+    font-size: 15px;
+}
+.bl-box figure img {
+    max-width: 32%;
+}
+.counter-text {
+    width: 40% !important;
+    float: left;
+    font-size: 13px !important;
+}
+.qtyminus,.qtyplus {
+    width: 15% !important;
+}
+.qty {
+    width: 20% !important;
+}
+.form-div h2 {
+    font-size: 29px;
+}
+/* .bl-main > section:first-child {
+	top: 0;
+	left: 0;
+	border:5px solid #1c2f3d;
+}
+
+.bl-main > section:nth-child(2) {
+	top: 0;
+	left: 50%;	
+	border:5px solid #1c2f3d;
+}
+
+.bl-main > section:nth-child(3) {
+	top: 25%;
+	left: 0%;	
+	border:5px solid #1c2f3d;
+}
+
+.bl-main > section:nth-child(4) {
+	top: 25%;
+	left: 50%;
+	border:5px solid #1c2f3d;
+}
+.bl-main > section:nth-child(5) {
+	top: 50%;
+	left: 0%;
+	border:5px solid #1c2f3d;
+}
+.bl-main > section:nth-child(6) {
+	top: 50%;
+	left:50%;
+	border:5px solid #1c2f3d;
+}
+.bl-main > section:nth-child(7) {
+	top: 75%;
+	left: 0%;	
+	border:5px solid #1c2f3d;
+}
+.bl-main > section:nth-child(8) {
+	top: 75% !important;
+	left:50%;	
+	border:5px solid #1c2f3d;
+}
+.bl-main > section {
+    width: 50% !important;
+    height: 25%;
+} */
+.bl-box figure {
+    margin: 15px 0px 0px;
+}
+
+.bl-icon {
+    float: left;
+}
+#section1 .intro {
+    margin-top: 90px;
+}
+.right-about-us, .left-testimonials { min-height: 150px; height: auto; margin: 10px auto; float: left; flex:none; display: inline-block;}
+#slideshow div p { display: inline-block; margin: 0 auto 20px;}
+#slideshow div p { margin-bottom: 0;}
+.right-about-us { padding:0; margin: 20px auto;}
+.about-us-section { display: inline-block; width: 100%;}
+.form-div {
+    margin-top:0px;
+}
+#section3 .fp-tableCell {
+    margin-top: 30px !important;
+}
+.controls input {
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+.bl-box figure img {
+    max-width: 50%;
+    margin: 0;
+     position: relative;
+}
+.bl-box h2 {    
+    width: 49%;
+    font-size: 22px !important;
+    float: none;
+    margin: 0 !important;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+.bl-box figure {
+    margin: 22px 0px 0px;
+    float: left;
+    width: 35%;
+    height: auto;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}
+.bl-main > section .bl-icon-close {
+    width: 15px;
+	top: 0px;
+}
+.bl-expand.bl-expand-top figure img {
+    max-width: 10%;
+}
+.bl-expand.bl-expand-top .bl-content h2 {
+    font-size: 20px !important;
+}
+.bl-expand.bl-expand-top .bl-content p {
+    width: 95% !important;
+    line-height: 25px !important;
+    font-size: 13px !important;
+}
+.bl-expand.bl-expand-top .bl-content {
+    top: 10px;
+}
+.read-more-btn {
+    font-size: 17px;
+}
+.form-div form {
+    margin-top: 35px;
+}
+.intro.form-intro {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+}
+.form-div h2 {
+    font-size: 20px;
+}
+.form-div h2::after {
+    bottom: -10px !important;
+}
+.controls input {
+    height: 32px;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+.form-div {
+    width: 80%;
+    margin: auto;
+}
+.controls input {
+    width: 100%;
+}
+.control-group.warning {
+    margin-bottom: 20px;
+}
+.counter-text {
+    padding: 5px 15px 0px;
+}
+.send-button-form-div {
+    font-size: 16px;
+    padding: 13px 0px;
+}
+/* .section.fp-section.fp-table.active.fp-completely  { display: inline-block; overflow: auto !important; table-layout: auto;}
+#section3 .fp-tableCell { display: inline-block; float: left; height: auto !important;}
+.intro.form-intro, .form-div { float: left; width: 100%;} */
+.section .bl-box { padding-top: 5%;}
+.section.active.fp-completely  #bl-main section.bl-expand.bl-expand-top { top: 0 !important;}
+.footer-link ul li a, .intro p { font-size: 13px;}
+.menu-wrap .icon-list { padding-left: 10px;}
+
+.bottom-logo { margin: 30px 0px 0;}
+.menu-wrap a { padding:0;}
+.menu-button { top: 20px;}
+.close-button { padding-left: 28px;}
+#section0 h2 { font-size: 40px;}
+
+.about-us-section.bottom-sec { margin-top: 0; display: inline-block; margin-bottom: 100px;}
+.about-us-section.top-sec { margin-top: 0; display: inline-block; margin-bottom: 0;}
+
+#section0 h2 { padding: 0 50px; font-size: 25px;}
+}
+@media only screen and (max-width: 567px) {
+	.bl-main > section:first-child {
+	top: 0;
+	left: 0;
+	border:5px solid #1c2f3d;
+}
+/* #section3,#section3 .fp-tableCell {
+    display: inline-block;	
+    height: auto !important;
+} */
+
+.bl-main > section:nth-child(2) {
+	top: 0;
+	left: 50%;	
+	border:5px solid #1c2f3d;
+}
+
+.bl-main > section:nth-child(3) {
+	top: 25%;
+	left: 0%;	
+	border:5px solid #1c2f3d;
+}
+
+.bl-main > section:nth-child(4) {
+	top: 25%;
+	left: 50%;
+	border:5px solid #1c2f3d;
+}
+.bl-main > section:nth-child(5) {
+	top: 50%;
+	left: 0%;
+	border:5px solid #1c2f3d;
+}
+.bl-main > section:nth-child(6) {
+	top: 50%;
+	left:50%;
+	border:5px solid #1c2f3d;
+}
+.bl-main > section:nth-child(7) {
+	top: 75%;
+	left: 0%;	
+	border:5px solid #1c2f3d;
+}
+.bl-main > section:nth-child(8) {
+	top: 75% !important;
+	left:50%;	
+	border:5px solid #1c2f3d;
+}
+.bl-main > section {
+    width: 50% !important;
+    height: 25%;
+}
+.buttons p a {
+    font-size: 10px;
+}
+#section1 .fp-tableCell {
+    vertical-align: top !important;
+}	
+.right-about-us, .left-testimonials {
+    width: 100%;
+    margin-bottom: 5px;
+}	
+.right-about-us {
+    min-height: auto !important;
+    padding-bottom: 15px;
+}
+.form-div form {
+    padding: 10px 30px;
+}
+.about-us-section {
+    overflow: auto;
+	
+}
+.bl-box figure {
+    height: 40px;
+}
+.bl-box figure img {
+    max-width: 40%;
+}
+.bl-icon {
+    font-size: 12px !important;
+    margin: 7px !important;
+}
+.bl-box h2 {
+    font-size: 15px !important;
+    margin: 25px 0px !important;
+}
+.menu-button {
+    top: 10px;
+}
+.buttons p a { width: 45%; float: none; display: inline-block; margin: 0 6px;} 
+.buttons p { text-align: center;}
+.bl-box h2 { text-align: center;}
+.show-menu .menu-wrap { width: 100% !important;}
+.bl-expand.bl-expand-top .bl-content figure img { max-width: 100px;}
+.bl-expand.bl-expand-top .bl-content { top: 30px;}
+.form-div h2 { font-size: 15px;}
+.bottom-logo img { width: 130px;}
+.footer-link ul li { margin: 0px 0px 2px;}
+.footer-link ul li a, .intro p { font-size: 12px;}
+.bottom-logo { margin: 20px 0px 0;}
+.bottom-logo img { margin-bottom: 10px;}
+}
+@media only screen and (max-width: 467px) {
+	.buttons {
+    width: 100%;
+}
+.logo {
+    padding: 0px 10px;
+    width: 100%;
+	text-align:center;
+}
+.col-md-6.logo img {
+    max-width: 50%;
+    margin: auto;
+}
+.buttons p {
+	width:100%;
+	padding:5px 10px;
+}
+.buttons p a {
+	width:45%;
+}
+#section1 .intro {
+    margin-top: 40%;
+}
+.form-div form {
+    margin-top: 24px;
+}
+.control-group.warning {
+    margin-bottom: 10px;
+}
+.counter-text {   
+    font-size: 14px !important;
+    text-align: left;
+    padding: 0px 9px 10px;
+}
+.counter-text {
+    width: 100% !important;
+}
+.qty {
+    width: 35% !important;
+}
+.qtyminus, .qtyplus {
+    width: 25% !important;
+}
+.about-us-section p {
+    font-size: 12px;
+}
+.about-us-section h2 {
+    font-size: 20px;
+}
+.bl-box figure {
+    width: 100%;
+}
+.bl-box figure img {
+    max-width: 25%;
+}
+.bl-box h2 {
+    box-sizing: border-box;
+	width:100%;
+    margin: 20px 0px !important;
+}
+.bl-box figure {
+    margin: 40px 0px 0px;
+}
+
+#section0 h2 { font-size: 30px;}
+}
+@media only screen and (max-width: 321px) {
+.bl-box figure {
+    margin: 10% 0px 0px;
+}
+.form-div form {
+    padding: 10px 10px;
+}
+}

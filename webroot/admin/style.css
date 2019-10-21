@@ -1,0 +1,113 @@
+label.error{color:red;}
+.inner-section{display: none;}
+.vestotus-actions {
+    margin: 10px 0;
+}
+.vestotus-updates img[src=""]{
+	display: none;
+}
+.vestotus-updates .submit {
+    float: left;
+    width: auto;
+}
+.vestotus-updates .border-box .label {
+    font-size: 13px;
+    font-weight: 400;
+}
+.vestotus-updates .add-learning-objects {
+    border: 0;
+    background-color: #1ABB9C;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 15px;
+    transition: all 400ms ease-in-out 0s;
+    -o-transition: all 400ms ease-in-out 0s;
+    -ms-transition: all 400ms ease-in-out 0s;
+    -moz-transition: all 400ms ease-in-out 0s;
+    -webkit-transition: all 400ms ease-in-out 0s;
+}
+.vestotus-updates .add-learning-objects i {
+    color: #1ABB9C !important;
+    background-color: #fff;
+    width: 19px;
+    height: 19px;
+    line-height: 21px;
+    border-radius: 200px;
+    margin-left: 9px;
+    font-size: 13px;
+    transition: all 400ms ease-in-out 0s;
+    -o-transition: all 400ms ease-in-out 0s;
+    -ms-transition: all 400ms ease-in-out 0s;
+    -moz-transition: all 400ms ease-in-out 0s;
+    -webkit-transition: all 400ms ease-in-out 0s;
+}
+.vestotus-updates .all_rules{
+	margin: 0;
+	padding: 0;
+} 
+.vestotus-updates .add-learning-objects.addrule{
+	width: auto;
+}
+.vestotus-updates .add-learning-objects:hover{
+	background-color: #139f84;
+}
+.vestotus-updates .add-learning-objects:hover i{
+	color: #139f84 !important;
+}
+/*.vestotus-updates .inner-section{
+	padding-left: 0;
+	margin: 14px 0px;
+}*/
+.vestotus-apprval {
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0 0;
+}
+.vestotus-updates .loginform br{
+	display: none;
+}
+.vestotus-updates .loginform {
+    margin: 0 0 20px;
+}
+
+/*developer css*/
+.btn-primary:hover {
+    color: #fff;
+    background-color: #286090 !important;
+    border-color: #204d74 !important;
+}
+
+.tab-content > .tab-pane {
+    padding-top: 10px;
+}
+
+.p-t-b-5{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-md .container.body .right_col {
+    padding: 65px 20px 0;
+    margin-left: 230px;
+}
+.w-25{
+    width: 25%;
+}
+.w-20{
+    width: 20%;
+}
+.profile-block .x_title {
+    margin-bottom: 0;
+    border: 0;
+    padding-bottom: 0;
+}
+.profile-block td .progress {
+    margin-bottom: 0;
+}
+td .progress .progress-bar span {
+    line-height: 23px;
+}
+/*.profile-block table.countries_list td {
+    padding: 10px;
+}*/

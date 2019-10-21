@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Tinos:400,400i,700');
+/*font-family: 'Tinos', serif;*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+/*font-family: 'Montserrat', sans-serif;*/
+.content-text { position: relative; z-index: 1; top: 25%;}
+.content-text h3 { color:#fff; font-size: 40px; font-weight:300;}
+.content-text h2 { font-family: 'Tinos', serif !important; color:#fff; font-size: 8.2em; margin-top: 12%; position: relative;}
+h2.main-heading { font-family: 'Tinos', serif !important; font-weight:normal; color: #3C3C3C; font-size: 33px; line-height: 42px; max-width: 80%; margin: 0 auto; text-transform: uppercase;}
+.section-title-2 hr, hr.red-line { border-color: #DF2B2C !important; width: 140px; border-width: 2px;}
+hr.red-line { margin: 0 auto;}
+.section.paralbackground { overflow: visible; margin: 0 auto 120px auto;}
+.white-box { background: #F6F4F5; border: 2px solid #E6E4E7; border-radius: 2px; margin-top: 0; position: absolute; box-sizing: border-box; bottom: 10%; top: -40%; height: 180%; right: 0;}
+.container { position: relative;}
+.content-section { min-height: 300px;}
+.white-box.left-box { right: auto; left: 0;}
+.logo-wrapper.mt-set { margin-top: 90px;}
+
+.logo-wrapper.background-color, .topbar { background-color: #212121;}
+.logo-wrapper { padding: 10px 0 5px 0;}
+.navbar-brand img.footer-logo { width: 180px;}
+.white-box p { color: #8c8c8c; font-size: 15px;}
+.more { color: #3C3C3C; font-size: 15px; font-weight: bold;}
+.white-box h3 { text-align: center; color: #3C3C3C; font-size: 32px; font-family: 'Tinos', serif !important;}
+.red-line-set { width: 130px; border-top: 2px solid #DF2B2C;}
+.site-logo .header-logo { width: auto; float: none; display: inline-block;}
+.navbar-brand { text-align: center;}
+#sidebar-fix { background:none; border:0;}
+#vertical .navbar-default .navbar-nav li .vertical-menu { left: 250px !important;}
+
+
+.menu-button { width: 50px; height: 36px; background: rgba(255,255,255,0.8); padding: 0 10px; border-radius: 2px; top: 16px;}
+.menu-button span { width: 100%; height: 2px; background: #3c3d41; display: inline-block; float: left; margin: 3px auto; transition-duration: 0.5s; -webkit-transition-duration: 0.5s;}
+.menu-button:hover span { background: #3c3d41; width: 60%;}
+.menu-button:hover span:nth-child(2) { width: 110%;}
+.nav-arrow .at { width: 12px; height: 2px; background: #3c3d41; -webkit-transform: rotate(45deg); transform: rotate(45deg);}
+.nav-arrow .ab { width: 12px; height: 2px; background: #3c3d41; -webkit-transform: rotate(-45deg); transform: rotate(-45deg); margin-top: 6px;}
+.nav-arrow { top: 13px; position: absolute; right: 4px; transition-duration: 0.5s; opacity: 0;}
+.menu-button:hover .nav-arrow { opacity: 1; transition-duration: 0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s;}
+.logo-wrapper.logo-center .btn { padding: 10px; border: 2px solid #ccc; border-radius: 4px; display: inline-block; font-size: 14px; margin: 13px 0 0px 0;}
+/*.logo-wrapper.logo-center .container { position: relative;}
+.logo-wrapper.logo-center div { position: static;}
+.logo-wrapper.logo-center .navbar-brand { position: absolute; left: 0; right: 0; margin: 10px auto 0; width: 200px; display: inline-block;}
+.logo-wrapper.logo-center div.nav-arrow { position: absolute;}*/
+.right-buttons { position: absolute; right: 0; top: 0; text-align: right;}
+body.login .loginbox img { width: auto; margin-bottom:0;}
+body.login a { position: relative;}
+.loginbox p.forgot { margin: 10px auto 0 !important;}
+.tab-first .nav-tabs { border:0;}
+.tab-first .tab-content { border:0; border-top: 1px solid #F6F6F6;}
+.dashboard-master .tab-first .nav-tabs { padding: 0 20px 20px 20px;}
+.dashboard-master .overview .course-v2 .shop-desc {     padding: 0px;}
+.dashboard-master .content-widget { padding: 0 20px; max-height: 250px; overflow: auto;}
+.dashboard-master .shop-desc h4 { padding: 14px 20px; margin:0; background: #FCFCFC; box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.05); color: #222222; font-size: 16px; text-transform: uppercase; font-weight: bold;}
+.dashboard-master .table > tbody > tr:first-child > td { border-top: 0;}
+.dashboard-master .table { margin-top: 20px;}
+h2.name { font-weight:normal; font-size: 22px; color: #BABABA;}
+.dashboard-master img { max-width: 100%;}
+.profile-details { list-style: none; padding:0;}
+.shop-desc .dropdown-menu.show-right { position: relative; display: block; float: none; border-radius: 0; border: 0; padding: 0;}
+
+#vertical .navbar-nav.top-menu > li i { font-size: 21px; margin-right: 18px; width: 25px; text-align: center; vertical-align: middle; display: inline-block; color: #555;}
+.courses .isotope .isotope-item { min-width: 300px;}
+.dashboard-master .courses img.img-circle { max-width: 25px;}
+.dropdown-menu.visible { display: block; opacity: 1; position: relative; border-radius: 0; padding: 0;}
+.dropdown-menu.visible > li { padding: 5px;}
+.date-picker .date { width: 45%; margin: 0 10px; padding: 7px 5px 0; box-sizing: border-box; float: left;}
+.date-picker .date input { border: 1px solid rgba(51, 51, 51, 0.1); box-shadow: none; border-radius: 0; height: 46px;}
+.date-picker .date .input-group-addon { border: 1px solid rgba(51, 51, 51, 0.1); box-shadow: none; border-radius: 0; border-left: 0;}
+.course-detail-master #owl-courses.nav-center .owl-controls { top: -10%;}
+.no-pd {padding:0;}
+.completed-course p { font-size: 18px;}
+
+.right-set #main { margin-left:0; transition: 0.3s;}
+/*.right-set.active #main { margin-left: 300px; transition: 0.3s; }*/
+body.login .register-sec {     max-width: 100%;}
+body.login .register-sec .form-control { width: 48%; margin: 0 1% 15px; float: left;}
+body.login .register-sec .btn { width: 98%; margin: 0 auto;}
+.learners-form .form-group { width: 48%; float: left; margin: 0 1% 10px 1%; position: relative;}
+.error-msg { position: relative; bottom: 0; margin: 0; font-size: 12px; color: #a50000; font-weight: normal;}
+.form-control.date-set { margin-bottom: 0;}
+.learners-form .form-group .col-md-4 { padding: 0 0px 0 0;}
+.learners-form .form-group .col-md-4:nth-child(2) { padding: 0 10px 0;}
+.clear { clear: both;}
+.leaners-table a.edit, .leaners-table a.delete { display: inline-block; vertical-align: middle; margin: 0 6px; font-size: 16px; color: #444;}
+.skills-sets .progress {     height: 12px; border-radius: 10px; margin: 4px auto;}
+.skills-sets .progress .progress-bar {  font-size: 9px; line-height: normal; background-color: #3c3d41;}
+.skills-sets .progress .progress-bar span { background: none !important;}
+.leaners-table .table td { vertical-align: middle;}
+
+label.checkbox-switch { display: block; width: 40px; height: 20px; background: #ccc; position: relative; border-radius: 20px; cursor: pointer;}
+.switch { display: none;}
+label.checkbox-switch:before { content: ""; display: inline-block; left: 0; position: absolute; width: 15px; height: 15px; margin: 2px; border-radius: 50%; background: #333; vertical-align: top; float: left;transition-duration: 0.3s; -webkit-transition-duration: 0.3s; -ms-transition-duration: 0.3s; -moz-transition-duration: 0.3s;}
+.switch:checked + label.checkbox-switch { background: #46abe5;}
+.switch:checked + label.checkbox-switch:before { transition-duration: 0.3s; -webkit-transition-duration: 0.3s; -ms-transition-duration: 0.3s; -moz-transition-duration: 0.3s; right: 0; left: auto; background: #fff;}
+.border-box { border: 1px solid #e4e4e4; padding: 10px;}
+.border-box .form-group { color:#333; display: inline-block; vertical-align: middle; margin: 5px 10px;}
+.border-box .label { color:#333;}
+label.square-radio { display: inline-block; position: relative; border: 2px solid #ccc; width: 15px; height: 15px; border-radius: 50%; vertical-align: middle; margin: 0 auto;}
+.radio-hide { display: none;}
+.radio-hide:checked + label.square-radio { border-color: #46abe5;}
+.radio-hide:checked + label.square-radio:before { content: ""; width: 7px; height: 7px; background: #46abe5; display: inline-block; border-radius: 50%; top: 2px; position: absolute; left: 0; right: 0; margin: 0 auto;}
+td.actions { width: 70px; text-align: right;}
+.actions a.edit, .actions a.delete { margin: 0 2px; font-size: 17px; color: #666;}
+.form-sec .table td { vertical-align: middle; background: #f9f9f9;}
+.s-no { width: 40px; text-align: center;}
+.form-sec .button i { float: right; margin: 3px 0 0 20px; color: #016ba9;}
+.form-sec .button:hover i { color:#fff;}
+.modal { z-index: 9999;}
+.circle-select i { width: 80px; height: 80px; border: 2px solid #ccc; display: inline-block; border-radius: 50%; line-height: 74px; text-align: center; padding-top: 0; font-size: 40px; margin: 0 10px; color: #666;}
+.circle-select { display: inline-block; vertical-align: top; width: 24%; text-align: center;}
+.circle-select label.square-radio { display: block; float: none; margin: 10px auto;}
+.circle-select:hover i { border-color: #46abe5; transition-duration: 0.5s; color: #46abe5;}
+.modal-footer i { margin: 0 0 0 10px;}
+.modal-container.center { text-align: center;} 
+.modal-header .modal-title { font-size: 16px; color: #565656;}
+.value { background: #ccc; padding: 7px 10px 8px 10px; margin-left: -8px; border-radius: 0 3px 3px 0;}
+.value-set { width: 110px; display: inline-block;}
+.modal-container .form-group label  { display: block;}
+.delete-btn { margin: 0 10px; font-size: 21px; color: #3CA1DB;}
+
+.bottom-form .border-box h3 { margin: 0 auto 10px; font-size: 15px; color: #555; font-weight: bold; float: left; width: 100%;}
+.border-box { margin-bottom: 40px;}
+.bottom-form .border-box h3 a.delete { float: right; font-size: 21px; color: #555; margin-right: 10px;}
+.value-sec .pre-value { padding: 7px; background: #ccc; display: inline-block; vertical-align: middle; position: relative;}
+.value-sec { display: inline-block; vertical-align: middle;}
+.loginform .value-sec .form-control { height: 30px; vertical-align: top; margin-left: -2px;}
+.value-sec label { display: block;}
+.inner-box { border: 1px solid #e9e9ec; padding: 20px; border-radius: 5px;}
+.inner-section { width: 100%; box-sizing: border-box; padding-left: 15%;}
+.enrollment .inner-box .form-control { width: 30%; display: inline-block; margin-right: 10px; margin-bottom: 0;}
+
+.first-accordion.withicon .panel-default > .panel-heading { padding: 0;}
+.first-accordion.withicon .panel-default h4 .inner-space { padding: 15px; display: inline-block; width: 100%;}
+.loginform .form-control.value-set { height: 34px;}
+.panel-body > .form-group > label { display: block;}
+.thumbs-img { width: 60px; border-radius: 2px; height: 60px; margin: 10px auto; box-shadow: 2px 2px 1px rgba(0,0,0,0.1);}
+.modal-container .form-group label.error, label.error { font-size: 11px; display: block; background: none; color: #ec8c8c;}
+.value-sec .number-sec .pre-value { display: inline-block; vertical-align: middle;}
+.number-sec #purchase-price { margin-bottom: 0; margin-left: -4px;}
+.messages-form .inner-section { padding-left: 20px; border-left: 1px dashed #ececec;}
+.resourcesdiv { border: 1px solid #e9e9ec; padding: 10px; margin: 10px auto;}
+.resourcesdiv .form-group { margin-bottom: 0;}
+.resourcesdiv label { width: 100px;}
+.resourcesdiv p { display: inline-block; max-width: 70%;}
+
+.loginform .checkbox.checkbox-warning { width: 100%; clear: both;}
+
+.input.required.error { width: 50%; float: left;}
+body.login .register-sec .input.required.error .form-control { width: 96%; margin: 0 2% 5px;}
+
+.loginform .key-word .form-control { max-width: 80%; float: left; width: 80%; margin-bottom: 0;}
+.loginform .key-word .btn { line-height: 36px; width: 20%;}
+.loginform .key-word label { width: 100%; position: relative;}
+
+.select2-container--default .select2-selection--multiple {     height: 50px; box-shadow: none; border-radius: 0 !important; margin-bottom: 20px; border-color: #e9e9ec !important; padding: 6px 12px; font-size: 14px; line-height: 1.42857143;}
+.select2-container .select2-selection--multiple { margin-bottom:0;}
+.enrollKey .form-group { clear: both; float: left; width: 100%;}
+
+.enrollKey .courses-tags label, .enrollKey .courses-tags .input.select.required.error, .enrollKey .input.required.error {width: 100%;}
+.enrollKey .courses-tags .select2-container { width: 100% !important;}
+.enrollKey .input.required.error + #generate_key, .enrollKey .input.required.error + #generate_password { margin-top: -70px;}
+.mb5 { margin-bottom: 5px;}
+
+.bigger-popup { width: 90%; margin: 30px auto;}
+.modal-container.assessment { height: 75vh; overflow: auto;}
+
+.add_assessments { list-style: none;}
+.add_assessments i { float: right; font-size: 20px;  color: #6b6b6b; margin-top: 6px;}
+.assessments_div { padding: 0 10px;}
+.options { width: 20%; float: left; margin: 5px 14px 15px 0;}
+.optionsdiv { clear: both; display: inline-block; float: left; width: 100%;}
+.optionsdiv label, .correctdiv { width: 100%; float: left;}
+.optionsdiv .btn.btn-primary { margin: 10px auto;}
+.correctdiv { }
+.optionsdiv a i.fa-trash { font-size: 20px; color: #6b6b6b; line-height: 43px;}
+.add_assessments li { border-bottom: 1px solid #ccc; padding: 5px 0 5px 20px;}
+.chaptereditform .form-group ul.files { list-style: none; padding: 0;}
+.files i {     font-size: 21px; color: #3CA1DB;} 
+.files li { border-bottom: 1px solid #ccc; padding: 5px 10px 5px 0;}
+.files a {  float: right;}
+.add_assessments li:before { content: "\f105"; font: normal normal normal 18px/1 FontAwesome; left: -10px; position: relative;}
+
+.form-sec a.btn { float: right; margin-top: -25px; margin-bottom: 15px;}
+.page-title { padding: 30px;}
+/*.course-single-quiz .fail { padding: 5px 15px; border: 1px solid #b11717; border-radius: 20px; margin: 10px auto; background: #b11717; color: #fff; box-shadow: 4px 4px 2px rgba(0,0,0,0.2); width: 100%; display: inline-block;}*/
+table.resulttbl { width: 100%;}
+table.resulttbl th { padding: 10px 10px; background: #3ca1db; color:#fff; font-family: "Roboto";}
+table.resulttbl th.col-1 { width: 100px;    text-align: center; text-transform: uppercase; font-size: 12px;}
+.status { text-align: center;}
+table.resulttbl td { padding: 8px 10px; font-family: "Roboto"; font-weight: 500;}
+.course-single-quiz .fail { padding: 10px 25px; border: 1px solid #e97979; margin: 10px auto; color: #a72828; width: 100%; display: inline-block;font-family: "Roboto";}
+.percent { max-width: 250px;}
+.post-media img { width: auto !important; max-width: 100%; max-height: 300px;}
+
+#quizform { border: 1px solid #eee; padding: 20px 20px;}
+#quizform .custom-widget { padding: 0 30px 30px;}
+#timer { font-weight: 700; font-family: Georgia; padding: 0; color: #DB3C6F; font-size: 22px; 
+  animation: 
+    pulse 8s ease infinite alternate, 
+    nudge 8s linear infinite alternate;
+    }
+
+@keyframes pulse {
+  0%, 100% {
+    color:#DB3C6F;
+  }
+  50% {
+    color: #3ca1db;
+  }
+}
+input.styled[type="radio"]:checked + label::after { background-color: #3CA1DB; content: "";}
+.radiodiv {  padding: 6px 0;}
+.radiodiv label { padding-left: 10px;}
+.quiz-title {  display: inline-block; vertical-align: middle;}
+.timer { display: inline-block; vertical-align: middle;}
+.quiz-sec { display: inline-block; width: 100%; padding: 20px 20px 0;}
+.less #timer { font-size: 28px; color: #F00; transition-duration: 0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s;}
+.error.quizerror { background: #b42a47; padding: 0; border-radius: 0; color: #fff; border: 0; margin-bottom: 10px; line-height: 30px; text-indent: 10px;}
+
+
+.input.required.error {     width: 100%;}
+.submit { display: inline-block; width: 100%;}
+.optionsdiv .options { width: 85%;}
+.optionsdiv { clear: none;  display: inline-block; float: left; width: 21%;}
+.form-group.optionsmaindiv { float: left; width: 100%;}
+
+.btn.btn-primary.mb10 {  margin-bottom: 10px;}
+.row-offcanvas.right-set { display: inline-block; width: 100%;}
+.status .red .btn.btn-primary {    background-color: #db3c3c !important;  border-color: #db3c3c !important;}
+.status .green .btn.btn-primary { background-color: #378c04 !important; border-color: #368307 !important;}
+.attendencetable{ width:100%; }
+
+

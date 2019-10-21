@@ -1,0 +1,114 @@
+<?= $this->assign('title','Home') ?>
+
+ <!-- SLIDER -->
+        <div class="first-slider">
+            <div class="slider-content">
+                <div id="rev_slider_98_2_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="search-form-hero72" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+                    <!-- START REVOLUTION SLIDER 5.0.7 fullwidth mode -->
+                    <div id="rev_slider_98_2" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.0.7">
+                        <ul>
+                            <!-- SLIDE  -->
+                            <li data-index="rs-280" data-transition="zoomout" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-rotate="0"  data-saveperformance="off"  data-title="Intro" data-description="">
+                                <!-- MAIN IMAGE -->
+                                <img src="images/main-banner.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                                <!-- LAYERS -->
+                                <!-- LAYER NR. 1 -->
+                                <div class="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0" 
+                                    id="slide-280-layer-101" 
+                                    data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                    data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
+                                    data-width="full"
+                                    data-height="full"
+                                    data-whitespace="nowrap"
+                                    data-transform_idle="o:1;"
+                                    data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;" 
+                                    data-transform_out="s:300;s:300;" 
+                                    data-start="750" 
+                                    data-basealign="slide" 
+                                    data-responsive_offset="on" 
+                                    data-responsive="off"
+                                    style="z-index: 5;background-color:rgba(0, 0, 0, 0);border-color:rgba(0, 0, 0, 0.50);"> 
+                                </div>
+                                
+                                <div class="content-text text-center">
+                                  <h3> EFFECTIVE EMPOWERED KNOWLEDGE </h3>
+                                  <h2> VESTOTUS </h2>
+                                </div>                         
+                            </li>
+                        </ul>
+                        <div class="tp-static-layers"></div>
+                        <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div> 
+                    </div>
+                </div><!-- END REVOLUTION SLIDER -->
+            </div>
+        </div>
+
+        <section class="section bgw">
+            <div class="container">
+              
+                <div class="section-title-2 text-center">
+                    <h2 class="main-heading">Lorem ipsum is the dummy text of the <br/> printing and type settings <br/> industry & system</h2>
+                    <hr>
+                </div><!-- end section-title -->
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                              <p>There are many variations of passages of Lorem Ipsum     available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a        passage of Lorem Ipsum, you need to be sure there isn't    anything embarrassing hidden in the middle of text.</p>
+                            </div><!-- end col -->
+
+                            <div class="col-md-6 col-sm-12">
+                                <div class="about-module">
+                  
+                                    <p>Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry's stan dard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</p>
+
+                                </div><!-- end about-module -->
+                            </div><!-- end col -->
+                        </div><!-- end row -->
+             
+            </div><!-- end container -->
+        </section>
+    
+    <section class="section paralbackground parallax" style="background-image:url('images/banner-2.jpg');" data-img-width="2400" data-img-height="1594" data-diff="100">
+            <div class="overlay"></div>
+            <div class="container content-section">
+                <div class="col-md-5 white-box">
+                  <h3> <?= $content['home_empower']['title'] ?> </h3>
+                  <hr class="red-line-set" />
+                  <p>
+                  
+                  <?= $content['home_empower']['content'] ?>
+                  
+                  </p>
+                  <?= $this->Html->link('View More',BASEURL.$content['home_empower']['readmore'],['class'=>'more']) ?>
+
+                </div>
+            </div><!-- end container -->
+        </section>
+        
+       
+    <section class="section paralbackground parallax" style="background-image:url('images/banner-3.jpg');" data-img-width="2400" data-img-height="1594" data-diff="100">
+            <div class="overlay"></div>
+            <div class="container content-section">
+                <div class="col-md-5 white-box left-box">
+                  <h3> <?= $content['home_build']['title'] ?> </h3>
+                  <hr class="red-line-set" />
+                <p><?= $content['home_build']['content'] ?></p>
+                <?= $this->Html->link('View More',BASEURL.$content['home_build']['readmore'],['class'=>'more']) ?>
+                </div>
+            </div><!-- end container -->
+        </section>
+
+        
+    <section class="section paralbackground parallax" style="background-image:url('images/banner-4.jpg');" data-img-width="2400" data-img-height="1594" data-diff="100">
+            <div class="overlay"></div>
+            <div class="container content-section">
+                <div class="col-md-5 white-box">
+                  <h3> <?= $content['home_share']['title'] ?> </h3>
+                  <hr class="red-line-set" />
+                   <p><?= $content['home_share']['content'] ?></p>
+                <?= $this->Html->link('View More',BASEURL.$content['home_share']['readmore'],['class'=>'more']) ?>
+                </div>
+            </div><!-- end container -->
+        </section>
+        
+       
+    

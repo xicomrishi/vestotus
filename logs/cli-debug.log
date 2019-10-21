@@ -1,0 +1,24 @@
+2018-11-19 05:21:35 Notice: Notice (8): Undefined index: Admins in [/var/www/html/odometer/vendor/cakephp/bake/src/View/Helper/DocBlockHelper.php, line 238]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT/vendor/cakephp/bake/src/View/Helper/DocBlockHelper.php, line 238
+Twig_Template::getAttribute() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 679
+__TwigTemplate_6015bbff2cff55a606cb8e66099ea45e86ad4c950295c3d934eda3d7cb8aba17::doDisplay() - ROOT/tmp/cache/twigView/96/964299f3047b2325807ea34d0e2276b613369925a10e9740990f59a862b8046a.php, line 19
+Twig_Template::displayWithErrorHandling() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 432
+Twig_Template::display() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 403
+Twig_Template::render() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT/vendor/wyrihaximus/twig-view/src/View/TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 100
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 33
+
+
+

@@ -1,0 +1,233 @@
+/******************************************
+    File Name: custom.css
+    Template Name: Teach Me
+    Created By: Show WP Team
+    Envato Profile: http://themeforest.net/user/wordpressshowcase
+    Website: https://showwp.com
+    Version: 1.0
+    Support: wordpressshowcasecom@gmail.com
+/******************************************/
+
+.course-table table a,
+.portfolio-filter ul li:hover a,
+.portfolio-filter ul li:focus a,
+.portfolio-filter ul li:active a,
+.drop-caps p:first-child:first-letter,
+.pricingbox.whitebg h4,
+.stat-module i,
+.nobgwithicon i,
+blockquote cite::before,
+blockquote cite,
+.latest-tweets a,
+.boxes h3 span,
+a:hover,
+a:focus,
+.navbar-brand span {
+    color: #3ca1db;
+}
+
+.darkheader,
+.button--pipaluk,
+.button--wayra,
+.button--rayen,
+.button--ujarak,
+#bbpress-forums li.bbp-header,
+.wbc .large-post-meta,
+.progress-bar span,
+.progress-bar-striped,
+.checkbox-warning input[type="checkbox"]:checked + label::before,
+.checkbox-warning input[type="radio"]:checked + label::before,
+.welcomebox-wrapper,
+.welcomebox,
+.ribbon-green,
+.shop-bottom i,
+.cartmenu sup,
+.revtp-searchform input[type="submit"],
+.revtp-form input[type="submit"],
+.Feature-Tour,
+.btn-primary {
+    background-color: #3ca1db !important;
+    border-color: #3ca1db !important;
+}
+
+.member-desc li:hover,
+.member-desc li.active,
+#vertical .navbar-nav > li:hover,
+.section-title-2 hr,
+.dmtop,
+.related-title span,
+.btn-trans {
+    border-color: #3ca1db !important;
+}
+
+.topbar {
+    border-top-color: #3ca1db;
+}
+
+.custom-widget,
+.navbar-nav > li:hover > a,
+.navbar-nav > li.active > a {
+    border-bottom-color: #3ca1db !important;
+}
+
+.Feature-Examples:focus,
+.Feature-Examples:hover {
+    border-color: #3ca1db !important;
+    color: #3ca1db !important;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-loaded {
+    background: #3ca1db !important;
+}
+
+/* HOVER */
+
+.course-table .fa,
+.member-desc li span,
+.member-desc li:hover a,
+.member-desc li:focus a,
+.member-desc li.active a,
+.bgw .owl-nav [class*="owl-"]:hover,
+.bgw .owl-nav [class*="owl-"]:focus,
+.darkheader .navbar-nav > li:hover,
+.darkheader .navbar-default .navbar-nav > .active > a,
+.darkheader .navbar-default .navbar-nav > .active > a:hover,
+.darkheader .navbar-default .navbar-nav > .active > a:focus,
+.first-accordion .panel-default > .panel-heading i,
+.first-accordion .panel-default > .panel-heading,
+.customtab .nav-pills > li:hover a,
+.customtab .nav-pills > li:focus a,
+.customtab .nav-pills > li.active > a,
+.customtab .nav-pills > li.active > a:hover,
+.customtab .nav-pills > li.active > a:focus,
+.tab-first .nav-tabs > li:hover a,
+.tab-first .nav-tabs > li:focus a,
+.tab-first .nav-tabs > li.active > a,
+.tab-first .nav-tabs > li.active > a:hover,
+.tab-first .nav-tabs > li.active > a:focus,
+.statscounts i,
+.withcircle i,
+.section.bgd .nav-center .owl-nav [class*="owl-"],
+#owl-courses.nav-center .owl-nav [class*="owl-"],
+mark,
+.tags a,
+.revtp-searchform input[type="submit"]:hover,
+.revtp-form input[type="submit"]:hover,
+.Feature-Tour:hover,
+.Feature-Tour:focus,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary,
+.btn-primary:focus,
+.btn-primary.focus {
+    color: #fff;
+    background-color: #46abe5 !important;
+    border-color: #46abe5 !important;
+}
+
+/*mk started*/
+label.error{
+    background-color: #fff;
+    color:red;
+}
+
+.progress-bar span{
+    background-color: transparent !important;
+}
+.mt-20{
+    margin-top: 20px;
+}
+
+.dashbrd-alrt{
+    float: right; 
+    width: 75%;    
+}
+/*course detail page */
+.single-course-title {
+    margin: 0px;
+}
+
+.accordion-toggle-2 .panel {
+    border-top: 0px;
+}
+table.resulttbl.view td {
+    font-weight: normal !important;
+}
+.course-single-desc.pp-0 p{
+    padding: 0px; 
+}
+.m-t-30{
+    margin-top: 30px; 
+}
+.m-t-20{
+    margin-top: 20px; 
+}
+
+.logo-dash{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.header-logo.dash{
+    height: 100px;
+    width: auto;
+
+}
+.navbar-brand img.footer-logo {
+    width: 100px !important;
+}
+.m-b-20{
+    margin-bottom: 20px;
+}
+.navbar-brand.logo-dash{
+    font-family: Georgia, serif !important;
+}
+
+#edit_profile_view {
+    margin: 10px 0;
+}
+
+/*.editform.manager{
+    display: none;
+}*/
+.shop-desc {
+    padding:0;
+}
+.page-title h2 {
+    padding-top: 12px;
+}
+.comments .media-list li {
+    padding: 12px;
+}
+
+.contact_form .form-control {
+    margin-bottom: 0px;
+}
+.cart-body h4, .cart-body h6 {
+    text-transform: capitalize;
+}
+.w-100{
+    width: 100px;
+}
+.thumb-50{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+td .action_links{
+    margin: 5px;
+}
+.liststylepost .pager img {
+    width: 70px;
+    margin: 5px 15px 0 0;
+    height: 50px;
+}
+.catalog .about-module p{
+    text-align: justify;
+}
+.catalog .about-module a:hover{
+    text-decoration: none;
+    color: #222222;
+}

@@ -1,0 +1,334 @@
+<div class="modal fade" id="myModal-shareKey">
+<?= $this->Form->create('shareKey',['id'=>'shareKeyform','url'=>['action'=>'shareKey']]) ?>
+<?php $this->Form->templates($form_templates['frontForm']); ?>
+<?= $this->Form->hidden('id',['id'=>'keyid']) ?>
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h5 class="modal-title">Pleae enter email Addresses seperated with commas.</h5>          
+          </div>
+          <div class="modal-body">
+            <div class="modal-container">
+                <div class="form-group">
+                    <label>Emails</label>
+                    <?= $this->Form->textarea('emails',['class'=>'form-control','label'=>false]) ?>
+                </div>
+                
+                                                
+                
+            </div>
+          </div>
+          <div class="modal-footer">
+           
+            <button type="submit" class="btn btn-primary"> Share <i class="fa fa-check" aria-hidden="true"></i> </button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel <i class="fa fa-ban" aria-hidden="true"></i> </button>
+          </div>
+
+
+          </div>
+
+          </div>
+          <?= $this->Form->end() ?>
+          </div>
+
+<div class="modal fade" id="myModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h5 class="modal-title">Please select a learning object type </h5>          
+          </div>
+          <div class="modal-body">
+            <div class="modal-container center">
+                <a class="circle-select">
+                    <i class="fa fa-file-text" aria-hidden="true"></i>
+                    <input type="radio" name="chapter_type" value="ppt" checked="checked" class="radio-hide" id="test1" />
+                    <label for="test1" class="square-radio"></label>
+                </a>
+                <a class="circle-select">
+                    <i class="fa fa-volume-up" aria-hidden="true"></i>
+                    <input type="radio" name="chapter_type" value="audio" class="radio-hide" id="test2" />
+                    <label for="test2" class="square-radio"></label>
+                </a>
+                <a class="circle-select">
+                    <i class="fa fa-video-camera" aria-hidden="true"></i>
+                    <input type="radio" name="chapter_type" value="video" class="radio-hide" id="test3" />
+                    <label for="test3" class="square-radio"></label>
+                </a>
+                  <a class="circle-select assessmentlink">
+                    <i class="fa fa-folder" aria-hidden="true"></i>
+                    <input type="radio" name="chapter_type" value="assessment" class="radio-hide" id="test4" />
+                    <label for="test4" class="square-radio"></label>
+                 </a>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" id="chapter_type_button"> Next <i class="fa fa-angle-right" aria-hidden="true"></i> </button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel <i class="fa fa-ban" aria-hidden="true"></i> </button>
+          </div>
+          
+        
+          
+        </div>
+      </div>
+    </div> 
+
+
+<div class="modal fade" id="myModal-video">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h5 class="modal-title">Please select a learning object type </h5>          
+          </div>
+
+          <div class="modal-body">
+            <?= $this->Form->create('chapter',['type'=>'file','id'=>'chapteraddform','url'=>'#']) ?>
+
+            <?= $this->Form->hidden('type',['value'=>'video']) ?>
+            <?php $this->Form->templates($form_templates['frontForm']); ?>
+            <div class="modal-container">
+            
+                <div class="form-group">
+                <?= $this->Form->input('title',['placeholder'=>'Title','class'=>'form-control']) ?>
+                </div>
+                <div class="form-group">
+                    <label>Description</label>
+                    <?= $this->Form->textarea('description',['class'=>'form-control','placeholder'=>'Description','Label'=>'Description']) ?>
+                </div>
+                <div class="form-group">
+                    <label>Notes</label>
+                    <?= $this->Form->textarea('notes',['rows'=>2,'class'=>'form-control','placeholder'=>'Notes','Label'=>'Notes']) ?>
+                </div>
+                <div class="form-group">
+                <?= $this->Form->input('video_width',['class'=>'form-control value-set','placeholder'=>'200','Label'=>'Video Wisth']) ?>
+                   <span class="value"> px </span>
+                </div>
+                <div class="form-group">
+                    <label>Video</label>
+                    <?php echo $this->Form->input('files[]', array('accept'=>"video/mp4",'label'=>false,'type' => 'file', 'multiple','class'=>'btn btn-default')); ?>
+                    <p class="help-block">Recommended mp4   <a href="#" class="delete-btn"> <i class="fa fa-trash-o" aria-hidden="true"></i> </a></p>
+                </div>
+                                                
+                <!--<button class="button button--wayra" data-toggle="modal" data-target="#myModal">Add Video <i class="fa fa-plus" aria-hidden="true"></i> </button> -->
+              
+            </div>
+          
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary backchaptertype" id="back1"> Back <i class="fa fa-angle-left" aria-hidden="true"></i> </button>
+            <button type="submit" class="btn btn-primary" id="chapteradd"> Continue <i class="fa fa-check" aria-hidden="true"></i> </button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel <i class="fa fa-ban" aria-hidden="true"></i> </button>
+          </div>
+  <?= $this->Form->end() ?>
+
+          </div>
+          </div>
+
+          </div>
+          </div>
+
+<div class="modal fade" id="myModal-audio">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h5 class="modal-title">Please select a learning object type </h5>          
+          </div>
+          <div class="modal-body">
+          <?= $this->Form->create('chapter',['type'=>'file','id'=>'chapteraddform2']) ?>
+            <?= $this->Form->hidden('type',['value'=>'audio']) ?>
+            <?php $this->Form->templates($form_templates['frontForm']); ?>
+            <div class="modal-container">
+                <div class="form-group">
+                   <?= $this->Form->input('title',['placeholder'=>'Title','class'=>'form-control']) ?>
+                </div>
+                <div class="form-group">
+                <label>Description</label>
+                  <?= $this->Form->textarea('description',['class'=>'form-control ckeditor','placeholder'=>'Description','Label'=>'Description']) ?>
+                </div>
+                <div class="form-group">
+                    <label>Notes</label>
+                    <?= $this->Form->textarea('notes',['rows'=>2,'class'=>'form-control','placeholder'=>'Notes','Label'=>'Notes']) ?>
+                </div>
+               
+                <div class="form-group">
+                    <label>Audio</label>
+                     <?php echo $this->Form->input('files[]', array('accept'=>"audio/mp3",'label'=>false,''=>'','type' => 'file', 'multiple','class'=>'btn btn-default')); ?>
+                    <p class="help-block">Recommended mp3 audio  <a href="#" class="delete-btn"> <i class="fa fa-trash-o" aria-hidden="true"></i> </a></p>
+                </div>
+                                                
+               <!-- <button class="button button--wayra" data-toggle="modal" data-target="#myModal">Add Audio <i class="fa fa-plus" aria-hidden="true"></i> </button>-->
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary backchaptertype"> Back <i class="fa fa-angle-left" aria-hidden="true"></i> </button>
+            <button type="submit" class="btn btn-primary"> Continue <i class="fa fa-check" aria-hidden="true"></i> </button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel <i class="fa fa-ban" aria-hidden="true"></i> </button>
+          </div>
+  <?= $this->Form->end() ?>
+
+          </div>
+
+          </div>
+          </div>
+
+<div class="modal fade" id="myModal-ppt">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h5 class="modal-title">Please select a learning object type </h5>          
+          </div>
+          <div class="modal-body">
+            <div class="modal-container">
+            <?= $this->Form->create('chapter',['type'=>'file','id'=>'chapteraddform3']) ?>
+            <?= $this->Form->hidden('type',['value'=>'ppt']) ?>
+            <?php $this->Form->templates($form_templates['frontForm']); ?>
+            <div class="modal-container">
+                <div class="form-group">
+                   <?= $this->Form->input('title',['placeholder'=>'Title','class'=>'form-control']) ?>
+                </div>
+                <div class="form-group">
+                <label>Description</label>
+                  <?= $this->Form->textarea('description',['class'=>'form-control ckeditor','placeholder'=>'Description','Label'=>'Description']) ?>
+                </div>
+                <div class="form-group">
+                    <label>Notes</label>
+                    <?= $this->Form->textarea('notes',['rows'=>2,'class'=>'form-control','placeholder'=>'Notes','Label'=>'Notes']) ?>
+                </div>
+               
+                <div class="form-group">
+                    <label>PPT</label>
+                     <?php echo $this->Form->input('files[]', array('accept'=>".ppt, .pptx",'label'=>false,''=>'','type' => 'file', 'multiple','class'=>'btn btn-default')); ?>
+                    <p class="help-block">Recommended .ppt,.pptx file  <a href="#" class="delete-btn"> <i class="fa fa-trash-o" aria-hidden="true"></i> </a></p>
+                </div>                         
+                
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary backchaptertype" id=""> Back <i class="fa fa-angle-left" aria-hidden="true"></i> </button>
+            <button type="submit" class="btn btn-primary"> Continue <i class="fa fa-check" aria-hidden="true"></i> </button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel <i class="fa fa-ban" aria-hidden="true"></i> </button>
+          </div>
+<?= $this->Form->end() ?>
+
+          </div>
+
+          </div>
+          </div>
+</div>
+<div class="modal fade" id="myModal-assessment">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h5 class="modal-title">Assessment </h5>          
+          </div>
+          <div class="modal-body">
+            <div class="modal-container" style="height:300px;overflow:scroll;">
+            <ul class="add_assessments">
+            
+            </ul>
+            <?= $this->Form->create('chapter',['type'=>'file','id'=>'chapteraddform4']) ?>
+            <?= $this->Form->hidden('type',['value'=>'assessment']) ?>
+            <?php $this->Form->templates($form_templates['frontForm']); ?>
+           <!-- <button class="button button--wayra add_question" type="button" >Add Questions <i class="fa fa-plus" aria-hidden="true"></i> </button>-->
+            <div id = "assessmentbasic" class="assessments_div">
+            <div class="form-group">
+                  <?= $this->Form->input('title',['placeholder'=>'Title','class'=>'form-control','label'=>'Title']) ?>
+            </div>
+            <div class="form-group">
+            <label>Description</label>
+                  <?= $this->Form->textarea('description',['class'=>'form-control','placeholder'=>'Description','Label'=>'Description','id'=>'description']) ?>
+                </div>
+                <div class="form-group">
+                    <label>Notes</label>
+                    <?= $this->Form->textarea('notes',['rows'=>2,'class'=>'form-control','placeholder'=>'Notes','Label'=>'Notes','id'=>'notes']) ?>
+                </div>
+                </div>
+                <div id = "assessment_0" class="assessments_div" >
+                <div class="form-group">
+                  <?= $this->Form->input('question',['placeholder'=>'Question','class'=>'form-control','label'=>'Question']) ?>
+                </div>
+                <div class="form-group optionsdiv">
+                <?= $this->Html->link('<i class="fa fa-plus"> </i>Add Option','javascript:void(0);',['onclick'=>'add_options_link(0);','escape'=>false]) ?>
+                  <?= $this->Form->input('options[]',['id'=>'0_1','placeholder'=>'Options','class'=>'form-control','label'=>'Options']) ?>  
+                  <?= $this->Form->input('options[]',['id'=>'0_2','placeholder'=>'Options','class'=>'form-control','label'=>false]) ?>  
+                  <?= $this->Form->input('options[]',['id'=>'0_3','placeholder'=>'Options','class'=>'form-control','label'=>false]) ?>  
+                  <?= $this->Form->input('options[]',['id'=>'0_4','placeholder'=>'Options','class'=>'form-control','label'=>false]) ?>  
+                  
+                </div>
+                 <div class="form-group correctdiv">
+                  <?= $this->Form->input('answer',['placeholder'=>'Answer','class'=>'form-control','label'=>'Answer']) ?>  
+                </div>
+                <?= $this->Form->submit()?>
+              </div>
+              <?= $this->Form->end() ?>  
+            </div>
+           
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal"> Done <i class="fa fa-check" aria-hidden="true"></i> </button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel <i class="fa fa-ban" aria-hidden="true"></i> </button>
+          </div>
+
+
+          </div>
+
+          </div>
+          </div>
+<div class="modal fade" id="edit-video">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          </div>
+
+          </div>
+          </div>
+
+<div class="modal fade" id="edit-audio">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          </div>
+
+          </div>
+          </div>
+
+<div class="modal fade" id="edit-ppt">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+        
+
+          </div>
+          </div>
+</div>
+<div class="modal fade" id="edit-assessment">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+
+
+          </div>
+
+          </div>
+          </div>
